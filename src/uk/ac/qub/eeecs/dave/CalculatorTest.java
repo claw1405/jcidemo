@@ -22,4 +22,9 @@ class CalculatorTest {
 		Calculator c = new Calculator();
 		assertEquals(c.div(10,2), 5);
 	}
+	@Test
+	void testMultiply() {
+		Calculator c = new Calculator();
+		assertEquals(c.multiply(10,2), 20);
+	}
 }
